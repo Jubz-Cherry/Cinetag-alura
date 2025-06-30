@@ -1,4 +1,4 @@
-import Inicio from "./components/Inicio";
+import Inicio from "./components/Cabecalho";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function AppRoutes(){
