@@ -3,7 +3,6 @@ import logo from './logo.png';
 import styles from './Cabecalho.module.css';
 import CabecalhoLink from '../CabecalhoLink';
 
-
 function Cabecalho(){
     return(
         <header className={styles.cabecalho}>
@@ -14,6 +13,7 @@ function Cabecalho(){
                 <CabecalhoLink url="./">
                     Home
                 </CabecalhoLink>
+                <p/>
                 <CabecalhoLink url="./Favoritos">
                     Favoritos
                 </CabecalhoLink>
@@ -21,5 +21,6 @@ function Cabecalho(){
         </header>
     )
 }
+
 
 export default Cabecalho; 
