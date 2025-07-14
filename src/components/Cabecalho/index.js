@@ -9,6 +9,8 @@ function Cabecalho(){
             <Link to="./">
                 <img src={logo} alt="Logo do cinetag"/>
             </Link>
+                <h2>Desenvolvido por Alura.</h2> 
+                <p/>
             <nav>
                 <CabecalhoLink url="./">
                     Home
@@ -17,7 +19,8 @@ function Cabecalho(){
                 <CabecalhoLink url="./Favoritos">
                     Favoritos
                 </CabecalhoLink>
-            </nav>
+            </nav> 
+            
         </header>
     )
 }
