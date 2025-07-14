@@ -4,8 +4,15 @@
     background-color: var(--preto);
 }
 
-.rodape h2 {
+.rodape h1 {
     font-weight: 400;
     font-size: 18px;
-    color: var(--branco);
+    color: rgb(255, 255, 255);
+}
+
+.rodape {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
